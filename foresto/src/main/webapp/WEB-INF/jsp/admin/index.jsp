@@ -8,5 +8,6 @@
 </head>
 <body>
 <h4>Admin Home Page Goes Here</h4>
+<h4>${user}</h4>
 </body>
 </html>

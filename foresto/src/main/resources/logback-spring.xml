@@ -17,7 +17,7 @@
                 <totalSizeCap>500KB</totalSizeCap>
             </rollingPolicy>
         </appender>
-        <root level="DEBUG,INFO">
+        <root level="INFO">
             <appender-ref ref="CONSOLE"/>
             <appender-ref ref="ROLLING-FILE"/>
         </root>
