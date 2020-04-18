@@ -17,6 +17,12 @@ import org.springframework.web.servlet.ModelAndView;
 public class ForestoAdminController {
 
 	
+	
+	@RequestMapping(value="/hello")
+	public String hello(ModelAndView model){
+		return "Hello World";
+	}
+	
 	@RequestMapping(value="/home")
 	public ModelAndView adminHome(ModelAndView model){
 		RestTemplate restTemplate = new RestTemplate();

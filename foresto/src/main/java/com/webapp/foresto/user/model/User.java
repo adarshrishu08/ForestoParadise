@@ -1,28 +1,28 @@
 package com.webapp.foresto.user.model;
 
-import javax.persistence.Column;
+/*import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
-@Entity
-@Table(name = "users")
+*/
+/*@Entity
+@Table(name = "users")*/
 public class User {
 
-	@Id
+	/*@Id
 	@Column(name="USERID")
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.AUTO)*/
 	private int userId;
 	
-	@Column(name="NAME")
+//	@Column(name="NAME")
 	private String name;
 	
-	@Column(name="EMAILID")
+//	@Column(name="EMAILID")
 	private String emailId;
 	
-	@Column(name="PASSWORD")
+//	@Column(name="PASSWORD")
 	private String password;
 	
 	public int getUserId() {
